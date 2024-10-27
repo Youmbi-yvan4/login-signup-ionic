@@ -1,0 +1,7 @@
+{
+  "name": "login-signup-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
