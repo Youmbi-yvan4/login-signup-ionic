@@ -1,0 +1,46 @@
+<ion-content>
+  <div class="heading">
+    <h1>Signup Now</h1>
+    <p>Please signup to start using our app.</p>
+  </div>
+
+  <div class="social-login">
+    <p>Enter via social network</p>
+    <div class="links">
+      <ion-button class="twitter" routerLink="/dashboard">
+        <img src="assets/icon/social_15707820.png" alt="Twitter" />
+      </ion-button>
+      <ion-button class="facebook" routerLink="/dashboard">
+        <img src="assets/icon/google_2504739.png" alt="Facebook" />
+      </ion-button>
+    </div>
+  </div>
+
+  <div class="email-login">
+    <p>Or signup with email</p>
+
+    <div class="formfield">
+      <input type="text" name="email" id="email">
+      <label for="email" placeholder="Email">Email</label>
+    </div>
+
+    <div class="formfield">
+      <input type="password" name="password" id="password">
+      <label for="password" placeholder="Password">Password</label>
+    </div>
+
+    <div class="other-links">
+      <div class="remember-me">
+        <ion-checkbox></ion-checkbox>
+        <p>I agree with privacy policies</p>
+      </div>
+    
+    </div>
+  </div>
+
+  <div class="login-button">
+    <ion-button class="login" routerLink="/dashboard">Signup</ion-button>
+    <p>already have an account? <span routerLink="/login">Login</span></p>
+    <p><span routerLink="/welcome">Back</span></p>
+  </div>
+</ion-content>
